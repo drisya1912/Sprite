@@ -1,0 +1,423 @@
+
+@font-face {
+    font-family: "AktivGroteskCdBlack";
+    src: url("https://static.coke.com/fonts/nagbrands/aktiv/AktivGroteskCd_W_Blk.woff") format("woff"), url("https://static.coke.com/fonts/nagbrands/aktiv/AktivGroteskCd_W_Blk.eot") format("eot"), url("https://static.coke.com/fonts/nagbrands/aktiv/AktivGroteskCd_W_Blk.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "AktivGroteskCdWLt";
+    src: url("https://static.coke.com/fonts/nagbrands/aktiv/AktivGroteskCd_W_Lt.woff") format("woff"), url("https://static.coke.com/fonts/nagbrands/aktiv/AktivGroteskCd_W_Lt.eot") format("eot"), url("https://static.coke.com/fonts/nagbrands/aktiv/AktivGroteskCd_W_Lt.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "AktivGroteskWBd";
+    src: url("https://static.coke.com/fonts/nagbrands/aktiv/AktivGrotesk_W_Bd.woff") format("woff"), url("https://static.coke.com/fonts/nagbrands/aktiv/AktivGrotesk_W_Bd.eot") format("eot"), url("https://static.coke.com/fonts/nagbrands/aktiv/AktivGrotesk_W_Bd.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 1420px;
+    /* background-color: grey; */
+}
+.nav{
+    position: fixed;
+    background-color: #009b4e;
+    width: 100%;
+    height:70px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 15px ;
+    width: 152px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo-img{
+    width: 132px;
+    height: 50px;
+    background-image: url("https://www.sprite.com/content/dam/nagbrands/us/sprite/en/home/same-sprite.png");
+    background-size: cover;
+}
+
+.menu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* padding-left: 50px; */
+    
+}
+.menuitem1:hover{
+    transform: scale(1.05);
+}
+.menuitem2:hover{
+    transform: scale(1.05);
+}
+.menuitem3:hover{
+    transform: scale(1.05);
+}
+.menuitem4:hover{
+    transform: scale(1.05);
+}
+.menuitem1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 115px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    font-stretch: semi-condensed;
+    font-weight: bold;
+
+    
+    /* padding-right:0px; */
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.menuitem2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 115px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: semi-condensed;
+}
+.menuitem3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 115px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: semi-condensed;
+}
+.menuitem4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 59px;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: semi-condensed;
+}
+.socialmedialinks{
+    /* background-color: aqua; */
+    padding-left: 200px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    text-align-last:right;
+
+    display: flex;
+}
+.socialmedialinks i{
+    color: white;
+    width: 50px;
+    height: 20px;
+}
+.free{
+    width: 50%;
+    height: 100%;
+}
+.social-link{
+    display: flex;
+    /* background-color: bisque; */
+    padding-left: 200px;
+   width: 50%;
+   height: 100%;
+}
+.main{
+
+    background-color: black;
+    width:100%;
+    height: 600px;
+    display: flex;
+}
+.main-1-1{
+    height: 85px;
+    /* width: 273px; */
+    /* padding-right: 33px; */
+
+}
+.main-1 {
+    height: 85px;
+    /* width: 273px; */
+    /* padding-right: 33px; */
+    padding-left: 50px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.main-1-1  img{
+
+    height: 80px;
+    width: 400px;
+    padding-top: 17px;
+}
+.main-1-2 P{
+    padding-left: 40px;
+    color: white;
+    font-size: 65.0px;
+    font-family: "AktivGroteskCdBlack";
+    font-weight: 400;
+    font-style: inherit;
+    line-height: 86.4px;
+}
+.button{
+    
+    padding-top: 50px;
+    font-weight: 400;
+    font-style: "AktivGroteskCdBlack";  
+
+}
+.button button:hover{
+    border: none;
+    background-color:black;
+    color: #fff;
+
+}
+.button button{
+    cursor: pointer;
+    background-color: rgb(255, 200, 0);
+    color: black;
+    font-size: 20px;
+    height: 50PX;
+    width: 200px;
+    
+}
+.main-2{
+   align-items: end;
+   /* background-color: green; */
+   padding-left: 150px;
+   height: 600px;
+   
+}
+.main-2 img{
+    margin: 0;
+    width: 750px;
+    height: 100%;
+}
+.Youtube{
+    padding-top: 50px   ;
+    width: 50%;
+    height: 320px;
+    margin-left: 150PX;
+    /* background-color: aliceblue; */
+}
+.main3-side{
+    /* padding-right: 100px; */
+    padding-top: 50px;
+    width: 50%;
+    height: 100%;
+    /* background-color: orange; */
+}
+.main3-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+ 
+    /* background-color: rgb(85, 28, 228); */
+}
+
+
+.main3{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    /* background-color: aqua; */
+
+
+    /* background-color: black; */
+}
+.main3-side {
+    margin-left: 40px;
+    margin-top: 0px;
+    font-family: "AktivGroteskCdBlack";
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+.main3-side p{
+    font-size: 28px;
+}
+
+.shopnow button{
+    cursor: pointer;
+    background-color: rgb(255, 200, 0);
+    color: black;
+    font-size: 20px;
+    height: 50PX;
+    width: 150px;
+    border: none;
+}
+.shopnow button:hover{
+    border: none;
+    background-color:black;
+    color: #fff;
+}
+
+.main4{
+    display: flex;
+    background-color:white;
+    width: 100%;
+    height: 500px;
+}
+.main4-1{
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    float: left;
+
+}
+.main4-1 p{
+    padding-top: 76px;
+    padding-left: 70px;
+    font-size: 60px;
+    font-style: "AktivGroteskCdBlack" ;
+}
+.main4-2{
+    width: 50%;
+    height: 100%;
+}
+.main4-2 img{
+    padding-left: 50px;
+    width: 85%;
+    height: 100%;
+}
+
+/*footer*/
+
+.spr{
+    width: 100%;
+    height: 419px;
+    background-color: #009b4e;
+    display: flex;
+}
+.logobottom{
+    
+    align-items: center;
+    height: 70%;
+    width: 30%;
+    /* background-color: pink; */
+}
+.logobottom img{
+    width: 200px;
+    height: 90px;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+.secondpart{
+    font-style: "AktivGroteskCdBlack";
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    width: 30%;
+    height: 70%;
+    /* background-color: aqua; */
+}
+.secondpart P{
+    padding-top: 100PX;
+    padding-left: 100px;
+}
+.socialfooter{
+    
+    padding-top: 50PX;
+    padding-left: 100px;
+}
+.thirdpart{
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    padding-top: 15PX;
+    font-weight: 800;
+}
+.thirdpart li{
+    /* padding-top: 100PX; */
+    list-style: none;
+    padding-left: 30px;
+    font-style: "AktivGroteskCdBlack";
+}
+.list{
+    /* transform: scale(1); */
+}
+.list:hover{
+    transform: scale(1.05);
+}
+.lst{
+    background-color: #009b4e;;
+    padding-bottom: 10px;
+}
+.fa-facebook:hover{
+    transform: scale(1.5);
+}
+.fa-twitter:hover{
+    transform: scale(1.5);
+}
+.fa-square-youtube:hover{
+    transform: scale(1.5);
+}
+.fa-instagram:hover{
+    transform: scale(1.5);
+}
+.fa-spotify:hover{
+    transform: scale(1.5);
+}
+.fa-user:hover{
+    transform: scale(1.5);
+}
+.pro{
+    font-size: 17px;
+    color: white;
+    padding-top: 100PX;
+    font-weight: 800;
+}
+.cherry p:hover{
+    color: black;
+}.lst h4 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 13.5cm;
+}.lst div h4{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 15px;
+    margin-left: 8cm;
+    margin-top: 5px;
+
+/* } .lst{
+    margin-top: 2cm; */
+} .lst div h4 a:hover{
+    color: black;
+}
+
